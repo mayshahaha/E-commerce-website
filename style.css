@@ -516,6 +516,363 @@ footer a:hover{
 
 }
 
+
+
+/*Shop Page */
+
+#page-header{
+    background-image: url("Img/Banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+
+#page-header h2,
+#page-header p{
+    color: whitesmoke
+
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: rgb(11, 164, 131);
+    padding: 15px 20px;
+    border-radius: 4px ;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/*Single Product*/
+
+#prodetails .single-pro-img{
+    width: 40%;
+    margin-right: 15px;
+
+}
+
+.small-img-grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 20px;
+}
+
+#prodetails .single-pro-details h4{
+    font-size: 25px;
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px; 
+    margin-bottom: 10px;
+
+}
+
+#prodetails .single-pro-details input{
+    width: 45px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+#prodetails .single-pro-details button{
+    background-color: rgba(13, 143, 127, 0.704);
+    color: white;
+    padding: 15px 20px;
+}
+
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+/*About Us*/
+
+
+
+#page-header.about-header{
+    background-image: url("Img/About/banner.png"); 
+  
+
+}
+
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head p{
+    font-size: 15px;
+
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+
+}
+
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/*Contact page*/
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+
+}
+
+#form-details{
+
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid rgba(162, 157, 157, 0.367);
+}
+
+#form-details form{
+    
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form span{
+   
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgb(166, 163, 163);
+    margin-left: 20px;
+   
+}
+
+
+#form-details form button{
+    background-color: rgb(46, 156, 147);
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/*Cart Page*/
+
+
+#cart {
+    overflow-x: auto;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+
+
+#cart table td:nth-child(1){
+    width: 250px;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(3),
+#cart table td:nth-child(4),
+#cart table td:nth-child(5){
+    width: 150px;
+    text-align: center;
+}
+
+
+
+#cart table td:nth-child(6){
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4) input{
+    width: 70px ;
+    padding: 10px 5px 20px 15px;
+}
+
+
+#cart table thead{
+    border: 1px solid rgb(169, 166, 166);
+    
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 0;
+    font-size: 13px;
+}
+
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+
+#cart table tbody td{
+    font-size: 13px;
+}
+
+#cart-add{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid rgba(188, 188, 188, 0.823);
+}
+
+#coupon button,
+#subtotal button{
+    background-color: rgb(63, 170, 165);
+    color: white;
+    padding: 12px 20px;
+   cursor: pointer;
+   border: none;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(188, 188, 188, 0.823);
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid rgba(188, 188, 188, 0.823);
+    padding: 10px;
+    font-size: 13px;
+}
+
+
 /*Media Query */
 
 @media (max-width:799px){
@@ -796,349 +1153,4 @@ footer a:hover{
 
 }
 
-}
-
-
-/*Shop Page */
-
-#page-header{
-    background-image: url("Img/Banner/b1.jpg");
-    width: 100%;
-    height: 40vh;
-    background-size: cover ;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 14px;
-}
-
-
-#page-header h2,
-#page-header p{
-    color: whitesmoke
-
-}
-
-#pagination{
-    text-align: center;
-}
-
-#pagination a{
-    text-decoration: none;
-    background-color: rgb(11, 164, 131);
-    padding: 15px 20px;
-    border-radius: 4px ;
-    color: white;
-    font-weight: 600;
-}
-
-
-
-/*Single Product*/
-
-#prodetails .single-pro-img{
-    width: 40%;
-    margin-right: 15px;
-
-}
-
-.small-img-grp{
-    display: flex;
-    justify-content: space-between;
-}
-
-.small-img-col{
-    flex-basis: 24%;
-    cursor: pointer;
-}
-
-#prodetails{
-    display: flex;
-    margin-top: 20px;
-}
-
-#prodetails .single-pro-details{
-    width: 50%;
-    padding-top: 30px;
-}
-
-#prodetails .single-pro-details h2{
-    font-size: 20px;
-}
-
-#prodetails .single-pro-details h4{
-    font-size: 25px;
-    padding: 40px 0 20px 0;
-}
-
-#prodetails .single-pro-details select{
-    display: block;
-    padding: 5px 10px; 
-    margin-bottom: 10px;
-
-}
-
-#prodetails .single-pro-details input{
-    width: 45px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-}
-
-
-
-#prodetails .single-pro-details button{
-    background-color: rgba(13, 143, 127, 0.704);
-    color: white;
-    padding: 15px 20px;
-}
-
-
-#prodetails .single-pro-details span{
-    line-height: 25px;
-}
-
-/*About Us*/
-
-#page-header.about-header{
-    background-image: url("Img/About/banner.png");    
-}
-
-#about-head{
-    display: flex;
-    align-items: center;
-}
-
-#about-head img{
-    width: 50%;
-    height: auto;
-}
-
-#about-head div{
-    padding-left: 40px;
-}
-
-#about-app .video{
-    width: 70%;
-    height: 100%;
-    margin: 30px auto 0 auto;
-
-}
-
-#about-app .video video{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-/*Contact page*/
-
-#contact-details{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#contact-details .details h2{
-    font-size: 26px;
-    line-height: 30px;
-    padding: 10px 0;
-}
-
-#contact-details .details li{
-    list-style: none;
-    display: flex;
-    padding: 10px 0;
-}
-
-#contact-details .details li i{
-    font-size: 14px;
-    padding-right: 22px;
-}
-
-#contact-details .details li p{
-    margin: 0;
-    font-size: 14px;
-}
-
-#contact-details .map{
-    width: 55%;
-    height: 400px;
-}
-
-#contact-details .map iframe{
-    width: 100%;
-    height: 100%;
-
-}
-
-#form-details{
-
-    margin: 30px;
-    padding: 30px;
-    border: 1px solid rgba(162, 157, 157, 0.367);
-}
-
-#form-details form{
-    
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#form-details form span{
-   
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-weight: 700;
-    
-}
-
-#form-details form input,
-#form-details form textarea{
-    width: 100%;
-    padding: 12px 15px;
-    outline: none;
-    margin-bottom: 20px;
-    border: 1px solid rgb(166, 163, 163);
-    margin-left: 20px;
-   
-}
-
-
-#form-details form button{
-    background-color: rgb(46, 156, 147);
-    color: white;
-    margin-left: 20px;
-}
-
-
-
-/*Cart Page*/
-
-
-#cart {
-    overflow-x: auto;
-}
-
-#cart table{
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    white-space: nowrap;
-}
-
-#cart table img{
-    width: 70px;
-}
-
-
-#cart table td:nth-child(1){
-    width: 250px;
-    text-align: center;
-}
-
-
-#cart table td:nth-child(2){
-    width: 150px;
-    text-align: center;
-}
-
-
-#cart table td:nth-child(3),
-#cart table td:nth-child(4),
-#cart table td:nth-child(5){
-    width: 150px;
-    text-align: center;
-}
-
-
-
-#cart table td:nth-child(6){
-    width: 100px;
-    text-align: center;
-}
-
-#cart table td:nth-child(4) input{
-    width: 70px ;
-    padding: 10px 5px 20px 15px;
-}
-
-
-#cart table thead{
-    border: 1px solid rgb(169, 166, 166);
-    
-}
-
-#cart table thead td{
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 18px 0;
-    font-size: 13px;
-}
-
-#cart table tbody tr td{
-    padding-top: 15px;
-}
-
-#cart table tbody td{
-    font-size: 13px;
-}
-
-#cart-add{
-    display: flex;
-    flex: wrap;
-    justify-content: space-between;
-}
-
-#coupon{
-    width: 50%;
-    margin-bottom: 30px;
-}
-
-#coupon h3,
-#subtotal h3{
-    padding-bottom: 15px;
-}
-
-#coupon input{
-    padding: 10px 20px;
-    outline: none;
-    width: 60%;
-    margin-right: 10px;
-    border: 1px solid rgba(188, 188, 188, 0.823);
-}
-
-#coupon button,
-#subtotal button{
-    background-color: rgb(63, 170, 165);
-    color: white;
-    padding: 12px 20px;
-   cursor: pointer;
-   border: none;
-}
-
-#subtotal{
-    width: 50%;
-    margin-bottom: 30px;
-    border: 1px solid rgba(188, 188, 188, 0.823);
-    padding: 30px;
-}
-
-#subtotal table{
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-#subtotal table td{
-    width: 50%;
-    border: 1px solid rgba(188, 188, 188, 0.823);
-    padding: 10px;
-    font-size: 13px;
 }
